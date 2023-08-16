@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav h1 {
+  font-size: 2rem;
+  margin-left: 32px;
+}
+
+.nav ul {
+  font-size: 1.5rem;
+  display: flex;
+  margin-right: 32px;
+
+  gap: 46px;
+}
+
+.nav a {
+  color: black;
+  border: 1px solid #ffde4a;
+  border-radius: 4px;
+  background: #ffde4a;
+  padding: 8px 16px;
+  display: inline-block;
+}
+
+.nav-bg {
+  border-bottom: 1px solid #373737;
+}
+
+.pesquisa input {
+  font-size: 1.25rem;
+  border-bottom: 1px solid #373737;
+  width: 46ch;
+}
