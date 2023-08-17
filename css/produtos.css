@@ -1,0 +1,27 @@
+.produtos h1 {
+  color: white;
+  font-size: 4rem;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  background: orangered;
+  padding: 16px;
+  width: max-content;
+  border-radius: 4px;
+}
+
+.eletronicos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 32px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.eletronicos img {
+  width: 500px;
+  height: 300px;
+  border-radius: 4px;
+  object-fit: cover;
+}

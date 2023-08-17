@@ -2,12 +2,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
   margin-top: 20px;
-  margin-bottom: 140px;
+}
+
+.list-bg {
+  background: orangered;
+  border-radius: 4px;
+}
+
+.logo {
+  width: 500px;
 }
 
 .nav h1 {
-  font-size: 2rem;
+  font-size: 2.75rem;
   margin-left: 32px;
 }
 
@@ -15,41 +24,16 @@
   font-size: 1.5rem;
   display: flex;
   margin-right: 32px;
-
   gap: 46px;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav a {
   color: white;
-  border: 1px solid #f67828;
+  border: 1px solid orangered;
   border-radius: 4px;
-  background: #f67828;
+  background: orangered;
   padding: 8px 16px;
   display: inline-block;
-}
-
-body {
-  background-image: url("/img/vendedor.png");
-  background-size: 100%;
-}
-
-.pesquisa input {
-  padding: 5px 10px;
-  font-size: 1.25rem;
-  border-bottom: 1px solid #373737;
-  width: 46ch;
-}
-
-.pesquisa button {
-  cursor: pointer;
-  display: inline-block;
-  border: 1px solid #f67828;
-  border-radius: 4px;
-  background: #f67828;
-  padding: 8px 16px;
-}
-
-.pesquisa button:hover,
-.nav a:hover {
-  background: #ffeea4;
 }
