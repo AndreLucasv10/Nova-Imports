@@ -1,0 +1,15 @@
+.main-bg {
+  background: white;
+  box-shadow: 0 120px transparent;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.imagem-header img {
+  width: 450px;
+  margin-top: -120px;
+  margin-bottom: -120px;
+}

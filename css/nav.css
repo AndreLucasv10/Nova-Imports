@@ -1,8 +1,9 @@
 .nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 140px;
 }
 
 .nav h1 {
@@ -19,20 +20,36 @@
 }
 
 .nav a {
-  color: black;
-  border: 1px solid #ffde4a;
+  color: white;
+  border: 1px solid #f67828;
   border-radius: 4px;
-  background: #ffde4a;
+  background: #f67828;
   padding: 8px 16px;
   display: inline-block;
 }
 
-.nav-bg {
-  border-bottom: 1px solid #373737;
+body {
+  background-image: url("/img/vendedor.png");
+  background-size: 100%;
 }
 
 .pesquisa input {
+  padding: 5px 10px;
   font-size: 1.25rem;
   border-bottom: 1px solid #373737;
   width: 46ch;
+}
+
+.pesquisa button {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #f67828;
+  border-radius: 4px;
+  background: #f67828;
+  padding: 8px 16px;
+}
+
+.pesquisa button:hover,
+.nav a:hover {
+  background: #ffeea4;
 }
