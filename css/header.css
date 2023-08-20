@@ -12,9 +12,9 @@
 
 .main-bg {
   background: orangered;
-  box-shadow: 120px 120px #ff3600;
+  box-shadow: 120px 120px 1px 15px #ff3600;
   border-radius: 4px;
-  margin-bottom: 160px;
+  margin-bottom: 284px;
 }
 
 .header-txt {
