@@ -18,7 +18,7 @@
 
 .eletronicos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
   max-width: 1200px;
   position: relative;
   margin: auto;
@@ -56,10 +56,16 @@
   position: absolute;
   bottom: -20px;
   right: 20px;
-  background: orangered;
+  background: linear-gradient(orangered, red);
   font-size: 1.75rem;
   color: white;
   padding: 10px;
   border-radius: 4px;
   margin-right: 42px;
+  transition: 0.4s;
+}
+
+.botao-2:hover {
+  padding: 14px;
+  border-radius: 8px;
 }

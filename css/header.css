@@ -11,10 +11,10 @@
 }
 
 .main-bg {
-  background: orangered;
+  background: linear-gradient(orangered, red);
   box-shadow: 120px 120px 1px 15px #ff3600;
   border-radius: 4px;
-  margin-bottom: 284px;
+  margin-bottom: 270px;
 }
 
 .header-txt {

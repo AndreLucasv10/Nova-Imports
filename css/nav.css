@@ -10,11 +10,6 @@
   margin-top: 20px;
 }
 
-.list-bg {
-  background: orangered;
-  border-radius: 4px;
-}
-
 .logo {
   width: 500px;
 }
@@ -34,10 +29,20 @@
 }
 
 .nav a {
-  color: white;
-  border: 1px solid orangered;
-  border-radius: 4px;
-  background: orangered;
+  color: orangered;
   padding: 8px 16px;
   display: inline-block;
+}
+
+.nav a::after {
+  content: "";
+  width: 16px;
+  height: 2px;
+  background: orangered;
+  display: block;
+  transition: 0.4s;
+}
+
+.nav a:hover::after {
+  width: 100%;
 }
