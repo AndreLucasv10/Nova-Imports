@@ -1,0 +1,25 @@
+.sobre-bg {
+  background: #f0f0f0;
+  padding-top: 100px;
+}
+
+.sobre-img {
+  width: 400px;
+  padding: 50px;
+  background: linear-gradient(white 25%, orangered 5%);
+}
+
+.sobre {
+  background: white;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sobre-txt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
