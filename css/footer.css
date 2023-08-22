@@ -1,0 +1,12 @@
+footer {
+  background: linear-gradient(orangered, red);
+}
+
+.informacoes {
+  margin-top: 100px;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  gap: 30px;
+}

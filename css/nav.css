@@ -1,6 +1,7 @@
 .header-bg {
   max-width: 1600px;
   margin: auto;
+  background: linear-gradient(to left, orangered, white 62%);
 }
 
 .nav {
@@ -29,16 +30,16 @@
 }
 
 .nav a {
-  color: orangered;
   padding: 8px 16px;
   display: inline-block;
+  color: white;
 }
 
 .nav a::after {
   content: "";
   width: 16px;
   height: 2px;
-  background: orangered;
+  background: white;
   display: block;
   transition: 0.4s;
 }

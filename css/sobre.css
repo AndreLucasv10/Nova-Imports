@@ -1,25 +1,60 @@
 .sobre-bg {
-  background: #f0f0f0;
   padding-top: 100px;
 }
 
-.sobre-img {
-  width: 400px;
-  padding: 50px;
-  background: linear-gradient(white 25%, orangered 5%);
-}
-
 .sobre {
-  background: white;
+  display: flex;
+  gap: 30px;
   max-width: 1200px;
   justify-content: center;
   align-items: center;
   margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  color: white;
 }
 
 .sobre-txt {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 8px;
+  padding: 64px;
+  background: linear-gradient(red, orangered);
+}
+
+.sobre-txt h1 {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+.sobre-txt p {
+  font-size: 1.225rem;
+  text-align: center;
+}
+
+.sobre-valores {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(orangered, red);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.sobre-valores h1 {
+  font-size: 1.75rem;
+  color: white;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.sobre-valores h2 {
+  font-size: 1.75rem;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sobre-valores p {
+  font-size: 1.225rem;
+  color: #f0f0f0;
 }

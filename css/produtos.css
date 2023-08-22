@@ -3,15 +3,15 @@
 }
 
 .produtos-bg {
-  background: orangered;
+  background: linear-gradient(red, orangered);
   padding-top: 50px;
   padding-bottom: 2px;
   margin: auto;
   border-radius: 4px;
 }
-
 .produtos h1 {
-  color: orangered;
+  background: linear-gradient(orangered, red);
+  color: white;
   font-size: 3rem;
   justify-content: center;
   align-content: center;
@@ -41,6 +41,7 @@
   height: 100%;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   transition: 0.5s;
+  border-radius: 4px;
 }
 
 .eletronicos img:hover {
