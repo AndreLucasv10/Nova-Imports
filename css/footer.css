@@ -20,7 +20,7 @@ footer {
 .newsletter p::after {
   content: "";
   width: 1px;
-  height: 70px;
+  height: 80px;
   background: white;
   position: absolute;
   margin-left: 20px;
@@ -42,10 +42,11 @@ footer {
 
 .newsletter input {
   width: 320px;
-  height: 64px;
+  height: 63.5px;
   border-radius: 8px;
   margin-left: 64px;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .newsletter button {
@@ -59,11 +60,6 @@ footer {
   border: none;
   height: 64px;
   cursor: pointer;
-}
-
-.newsletter button:hover {
-  padding: 14px;
-  border-radius: 8px;
 }
 
 .direito {
