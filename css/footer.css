@@ -1,12 +1,79 @@
 footer {
   background: linear-gradient(orangered, red);
+  color: white;
+  font-weight: bold;
+}
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.newsletter p {
+  max-width: 77ch;
+  margin-bottom: 20px;
+}
+
+.newsletter p::after {
+  content: "";
+  width: 1px;
+  height: 70px;
+  background: white;
+  position: absolute;
+  margin-left: 20px;
+  top: 1px;
+}
+
+.informacoes a {
+  color: white;
 }
 
 .informacoes {
-  margin-top: 100px;
+  display: flex;
+  margin-top: 160px;
   padding: 20px;
   justify-content: center;
   align-content: center;
-  display: flex;
   gap: 30px;
+}
+
+.newsletter input {
+  width: 320px;
+  height: 64px;
+  border-radius: 8px;
+  margin-left: 64px;
+  font-size: 1.5rem;
+}
+
+.newsletter button {
+  background: orange;
+  font-size: 1.3rem;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 42px;
+  transition: 0.4s;
+  border: none;
+  height: 64px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.direito {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.direito img {
+  display: inline-block;
+  margin-left: 16px;
 }
