@@ -9,6 +9,7 @@
   margin: auto;
   border-radius: 4px;
 }
+
 .produtos h1 {
   background: linear-gradient(orangered, red);
   color: white;
@@ -45,8 +46,7 @@
 }
 
 .eletronicos img:hover {
-  width: 105%;
-  height: 105%;
+  transform: scale(1.2);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
 }
 
