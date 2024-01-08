@@ -2,6 +2,7 @@ footer {
   background: linear-gradient(orangered, red);
   color: white;
   font-weight: bold;
+  position: relative;
 }
 .newsletter {
   display: flex;
@@ -72,4 +73,9 @@ footer {
 .direito img {
   display: inline-block;
   margin-left: 16px;
+}
+
+.pica {
+  top: 0;
+  position: absolute;
 }
